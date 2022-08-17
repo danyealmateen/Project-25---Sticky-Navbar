@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.projekt {
+    display: flex;
+    background: url(/Projects/plant.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Opoen Sans', sans-serif;
+    color: #222; 
+}
+
+.h1, a {
+    margin: 50px;
+}
